@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 340" fill="none">
+  <!-- Cap - oval/rounded style -->
+  <ellipse cx="110" cy="16" rx="28" ry="16" fill="#1C1C1E"/>
+  <ellipse cx="110" cy="14" rx="24" ry="12" fill="#2A2A2A"/>
+  <ellipse cx="110" cy="12" rx="16" ry="6" fill="#C9A84C" opacity="0.5"/>
+
+  <!-- Atomizer/spray top -->
+  <rect x="106" y="30" width="8" height="20" rx="2" fill="#C9A84C"/>
+  
+  <!-- Neck - tapered -->
+  <path d="M96 48 L90 70 L130 70 L124 48 Z" fill="#C8976A"/>
+
+  <!-- Shoulder decorative ring -->
+  <ellipse cx="110" cy="72" rx="46" ry="8" fill="#C9A84C"/>
+
+  <!-- Body - rounder/squatter -->
+  <rect x="58" y="70" width="104" height="196" rx="52" fill="#D4996A"/>
+  <rect x="58" y="70" width="104" height="196" rx="52" fill="url(#amberGrad)"/>
+
+  <!-- Decorative band at top of body -->
+  <rect x="58" y="96" width="104" height="8" fill="#C9A84C" opacity="0.7"/>
+  
+  <!-- Label -->
+  <rect x="70" y="115" width="80" height="110" rx="40" fill="#FFF8EE" opacity="0.92"/>
+  
+  <!-- Label content -->
+  <text x="110" y="138" font-family="Georgia,serif" font-size="9" font-weight="700" fill="#1C1C1E" text-anchor="middle" letter-spacing="3">GTG</text>
+  <text x="110" y="155" font-family="Georgia,serif" font-size="13" font-weight="700" fill="#8B4513" text-anchor="middle">Amber</text>
+  <text x="110" y="170" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#C9A84C" text-anchor="middle">Elixir</text>
+  <line x1="82" y1="180" x2="138" y2="180" stroke="#C9A84C" stroke-width="1"/>
+  <text x="110" y="194" font-family="Arial" font-size="7" fill="#999" text-anchor="middle" letter-spacing="1.5">EAU DE PARFUM</text>
+  <text x="110" y="207" font-family="Arial" font-size="6.5" fill="#AAA" text-anchor="middle">75 ml</text>
+
+  <!-- Decorative band at bottom -->
+  <rect x="58" y="254" width="104" height="8" fill="#C9A84C" opacity="0.5"/>
+
+  <!-- Glass highlights -->
+  <path d="M70 90 Q66 166 70 240" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.18" fill="none"/>
+  <path d="M78 86 Q74 166 78 248" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.1" fill="none"/>
+
+  <defs>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513" stop-opacity="0.25"/>
+      <stop offset="40%" stop-color="#FFD700" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#8B4513" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+</svg>

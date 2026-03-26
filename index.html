@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="GTG Perfumes – Luxury fragrances handcrafted for the discerning soul. Explore Oud Royale, Amber Elixir, and Rose Noir."/>
+  <title>GTG Perfumes – Luxury Fragrance</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+</head>
+<body>
+
+<!-- =============================================
+     HEADER
+     ============================================= -->
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <nav class="nav-inner">
+
+      <!-- Logo -->
+      <div class="nav-logo">
+        <a href="#hero">GTG <span>Perfumes</span></a>
+      </div>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#product">Collection</a></li>
+        <li><a href="#stats">About</a></li>
+        <li><a href="#comparison">Compare</a></li>
+        <li><a href="#features">Why Us</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button class="nav-icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+          </svg>
+        </button>
+        <button class="nav-icon-btn" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </button>
+        <button class="nav-icon-btn" aria-label="Cart" style="position:relative">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0"/>
+          </svg>
+          <span class="cart-count">2</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile Nav -->
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#hero">Home</a>
+  <a href="#product">Collection</a>
+  <a href="#stats">About</a>
+  <a href="#comparison">Compare</a>
+  <a href="#features">Why Us</a>
+  <a href="#footer">Contact</a>
+</nav>
+
+
+<!-- =============================================
+     HERO
+     ============================================= -->
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-inner">
+
+      <!-- Text -->
+      <div class="hero-text">
+        <div class="hero-tag">New Collection 2025</div>
+        <h1 class="hero-title">
+          The Art of<br/>
+          <em>Rare Fragrance</em>
+        </h1>
+        <p class="hero-desc">
+          Each bottle is a story — meticulously crafted from the world's rarest botanicals,
+          resins, and oud. Wear what cannot be replicated.
+        </p>
+        <div class="hero-cta">
+          <a href="#product" class="btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0"/>
+            </svg>
+            Shop Now
+          </a>
+          <a href="#stats" class="btn-ghost">Discover Our Story</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <strong>12+</strong>
+            <span>Years Crafting</span>
+          </div>
+          <div class="hero-stat">
+            <strong>48K+</strong>
+            <span>Happy Customers</span>
+          </div>
+          <div class="hero-stat">
+            <strong>100%</strong>
+            <span>Pure Ingredients</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual -->
+      <div class="hero-visual">
+        <div class="hero-bottle-wrap">
+          <div class="hero-bottle-bg"></div>
+          <img src="assets/perfume-1.svg" alt="GTG Oud Royale Perfume" class="hero-bottle-img" loading="eager"/>
+          <div class="hero-badge">
+            <strong>#1</strong>
+            <span>Best Seller</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =============================================
+     PRODUCT SECTION
+     ============================================= -->
+<section class="product-section" id="product">
+  <div class="container">
+
+    <div class="product-section-header reveal">
+      <div class="section-label">Featured Product</div>
+      <h2 class="section-title">GTG Perfumes</h2>
+    </div>
+
+    <div class="product-layout">
+
+      <!-- ── Gallery Column ── -->
+      <div class="gallery-col reveal">
+        <div class="gallery-main">
+          <button class="gallery-arrow prev" aria-label="Previous image">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15 18 9 12 15 6"/>
+            </svg>
+          </button>
+
+          <img src="assets/perfume-1.svg" alt="GTG Perfume" class="gallery-main-img" id="galleryMainImg" loading="eager"/>
+
+          <button class="gallery-arrow next" aria-label="Next image">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"/>
+            </svg>
+          </button>
+
+          <div class="gallery-dots">
+            <button class="gallery-dot active" aria-label="Image 1"></button>
+            <button class="gallery-dot" aria-label="Image 2"></button>
+            <button class="gallery-dot" aria-label="Image 3"></button>
+            <button class="gallery-dot" aria-label="Image 4"></button>
+          </div>
+        </div>
+
+        <!-- Thumbnails -->
+        <div class="gallery-thumbs">
+          <div class="gallery-thumb active" data-index="0" role="button" tabindex="0" aria-label="View image 1">
+            <img src="assets/perfume-1.svg" alt="Oud Royale" loading="lazy"/>
+          </div>
+          <div class="gallery-thumb" data-index="1" role="button" tabindex="0" aria-label="View image 2">
+            <img src="assets/perfume-2.svg" alt="Amber Elixir" loading="lazy"/>
+          </div>
+          <div class="gallery-thumb" data-index="2" role="button" tabindex="0" aria-label="View image 3">
+            <img src="assets/perfume-3.svg" alt="Rose Noir" loading="lazy"/>
+          </div>
+          <div class="gallery-thumb" data-index="3" role="button" tabindex="0" aria-label="View image 4">
+            <img src="assets/perfume-4.svg" alt="Collection Set" loading="lazy"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Product Details Column ── -->
+      <div class="product-col reveal reveal-delay-2">
+
+        <div class="product-breadcrumb">
+          <a href="#hero">Home</a>
+          <span>›</span>
+          <a href="#product">Collection</a>
+          <span>›</span>
+          <span>Oud Royale</span>
+        </div>
+
+        <h1 class="product-name">Oud Royale</h1>
+        <div class="product-subtitle">Eau de Parfum · 100 ml</div>
+
+        <div class="product-rating">
+          <span class="stars">★★★★★</span>
+          <span class="rating-count">(284 reviews)</span>
+        </div>
+
+        <div class="product-price">
+          <span class="current-price">$129</span>
+          <span class="original">$189</span>
+        </div>
+        <div class="price-note">✦ Save up to 31% with subscription</div>
+
+        <div class="divider"></div>
+
+        <!-- FRAGRANCE SELECTION -->
+        <div class="option-group">
+          <div class="option-label">Choose Fragrance</div>
+          <div class="radio-options">
+
+            <label class="radio-option">
+              <input type="radio" name="fragrance" value="oud" checked/>
+              <span class="radio-custom"></span>
+              <span class="radio-text">
+                <span class="radio-name">Oud Royale</span>
+                <span class="radio-desc">Deep, woody, resinous — the king of oud</span>
+              </span>
+            </label>
+
+            <label class="radio-option">
+              <input type="radio" name="fragrance" value="amber"/>
+              <span class="radio-custom"></span>
+              <span class="radio-text">
+                <span class="radio-name">Amber Elixir</span>
+                <span class="radio-desc">Warm, golden, sensuous — a desert sunset</span>
+              </span>
+            </label>
+
+            <label class="radio-option">
+              <input type="radio" name="fragrance" value="rose"/>
+              <span class="radio-custom"></span>
+              <span class="radio-text">
+                <span class="radio-name">Rose Noir</span>
+                <span class="radio-desc">Dark rose, incense, mystery — unforgettable</span>
+              </span>
+            </label>
+
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- PURCHASE TYPE -->
+        <div class="option-group">
+          <div class="option-label">Purchase Type</div>
+          <div class="radio-options">
+
+            <label class="radio-option">
+              <input type="radio" name="purchase_type" value="onetime" checked/>
+              <span class="radio-custom"></span>
+              <span class="radio-text">
+                <span class="radio-name">One-Time Purchase</span>
+                <span class="radio-desc">No commitment, full retail price</span>
+              </span>
+            </label>
+
+            <label class="radio-option">
+              <input type="radio" name="purchase_type" value="single"/>
+              <span class="radio-custom"></span>
+              <span class="radio-text">
+                <span class="radio-name">Single Subscription</span>
+                <span class="radio-desc">Monthly delivery · Save 15%</span>
+              </span>
+            </label>
+
+            <!-- Single Subscription Expandable Box -->
+            <div class="subscription-box" id="singleSubBox">
+              <div class="sub-box-header">Single Subscription Benefits</div>
+              <div class="sub-box-body">
+                <div class="sub-feature">
+                  <div class="sub-feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M20 12V22H4V12M22 7H2v5h20V7zM12 22V7M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/>
+                    </svg>
+                  </div>
+                  <div class="sub-feature-title">Free Gift</div>
+                  <div class="sub-feature-desc">Every 3rd shipment includes a luxury sample set</div>
+                </div>
+                <div class="sub-feature">
+                  <div class="sub-feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/>
+                    </svg>
+                  </div>
+                  <div class="sub-feature-title">Flexible</div>
+                  <div class="sub-feature-desc">Skip, pause, or cancel anytime — no fees</div>
+                </div>
+                <div class="sub-feature">
+                  <div class="sub-feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                  </div>
+                  <div class="sub-feature-title">Free Shipping</div>
+                  <div class="sub-feature-desc">Every order ships free, worldwide</div>
+                </div>
+              </div>
+            </div>
+
+            <label class="radio-option">
+              <input type="radio" name="purchase_type" value="double"/>
+              <span class="radio-custom"></span>
+              <span class="radio-text">
+                <span class="radio-name">Double Subscription</span>
+                <span class="radio-desc">Bi-monthly double delivery · Save 31%</span>
+              </span>
+            </label>
+
+            <!-- Double Subscription Expandable Box -->
+            <div class="subscription-box sub-box-double" id="doubleSubBox">
+              <div class="sub-box-header">Double Subscription — Best Value</div>
+              <div class="sub-box-body">
+                <div class="double-badge">You save 31% + get exclusive VIP benefits</div>
+                <div class="sub-feature">
+                  <div class="sub-feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                  </div>
+                  <div class="sub-feature-title">VIP Access</div>
+                  <div class="sub-feature-desc">Early access to new releases & limited editions</div>
+                </div>
+                <div class="sub-feature">
+                  <div class="sub-feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M20 12V22H4V12M22 7H2v5h20V7zM12 22V7M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z"/>
+                    </svg>
+                  </div>
+                  <div class="sub-feature-title">Double Gift</div>
+                  <div class="sub-feature-desc">Every shipment includes a curated luxury gift</div>
+                </div>
+                <div class="sub-feature">
+                  <div class="sub-feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14M22 4L12 14.01l-3-3"/>
+                    </svg>
+                  </div>
+                  <div class="sub-feature-title">Priority Service</div>
+                  <div class="sub-feature-desc">Dedicated concierge, express shipping always</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- ADD TO CART -->
+        <div class="add-to-cart-section">
+          <div class="atc-row">
+            <div class="qty-selector">
+              <button class="qty-btn minus" aria-label="Decrease quantity">−</button>
+              <div class="qty-num" id="qtyNum">1</div>
+              <button class="qty-btn plus" aria-label="Increase quantity">+</button>
+            </div>
+
+            <button class="btn-atc" id="addToCartBtn" data-href="https://cart.gtgperfumes.com/add?sku=OUD-OT&qty=1">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0"/>
+              </svg>
+              Add to Cart
+            </button>
+
+            <button class="btn-wishlist" aria-label="Add to wishlist">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </button>
+          </div>
+
+          <div class="cart-link-display" id="cartLinkDisplay">
+            Cart link: <a href="https://cart.gtgperfumes.com/add?sku=OUD-OT&qty=1" target="_blank">
+              https://cart.gtgperfumes.com/add?sku=OUD-OT&qty=1
+            </a>
+          </div>
+        </div>
+
+        <!-- Tags -->
+        <div class="product-tags">
+          <span class="tag">Cruelty Free</span>
+          <span class="tag">Natural Ingredients</span>
+          <span class="tag">Long Lasting</span>
+          <span class="tag">Luxury</span>
+          <span class="tag">Handcrafted</span>
+        </div>
+
+      </div><!-- /product-col -->
+
+    </div><!-- /product-layout -->
+  </div>
+</section>
+
+
+<!-- =============================================
+     STATS / PERCENTAGES SECTION
+     ============================================= -->
+<section class="stats-section" id="stats">
+  <div class="container">
+
+    <div class="stats-header reveal">
+      <div class="section-label" style="color: var(--gold);">Our Commitment</div>
+      <h2 class="section-title">Crafted With Purpose</h2>
+      <p>Every percentage tells a story of our obsession with quality, sustainability, and customer satisfaction.</p>
+    </div>
+
+    <div class="stats-grid">
+
+      <div class="stat-card reveal">
+        <div class="stat-ring">
+          <svg viewBox="0 0 120 120">
+            <circle class="stat-ring-bg" cx="60" cy="60" r="54"/>
+            <circle class="stat-ring-fill" cx="60" cy="60" r="54" data-percent="84"/>
+          </svg>
+          <div class="stat-ring-number">
+            <span data-target="84">0</span><sup>%</sup>
+          </div>
+        </div>
+        <div class="stat-title">Customer Retention</div>
+        <div class="stat-desc">Customers who subscribe stay for life — our retention speaks volumes.</div>
+      </div>
+
+      <div class="stat-card reveal reveal-delay-1">
+        <div class="stat-ring">
+          <svg viewBox="0 0 120 120">
+            <circle class="stat-ring-bg" cx="60" cy="60" r="54"/>
+            <circle class="stat-ring-fill" cx="60" cy="60" r="54" data-percent="78"/>
+          </svg>
+          <div class="stat-ring-number">
+            <span data-target="78">0</span><sup>%</sup>
+          </div>
+        </div>
+        <div class="stat-title">Natural Ingredients</div>
+        <div class="stat-desc">Sourced ethically from over 22 countries. Every ingredient traceable.</div>
+      </div>
+
+      <div class="stat-card reveal reveal-delay-2">
+        <div class="stat-ring">
+          <svg viewBox="0 0 120 120">
+            <circle class="stat-ring-bg" cx="60" cy="60" r="54"/>
+            <circle class="stat-ring-fill" cx="60" cy="60" r="54" data-percent="96"/>
+          </svg>
+          <div class="stat-ring-number">
+            <span data-target="96">0</span><sup>%</sup>
+          </div>
+        </div>
+        <div class="stat-title">Satisfaction Rate</div>
+        <div class="stat-desc">96% of customers rate their experience 4 stars or above.</div>
+      </div>
+
+      <div class="stat-card reveal reveal-delay-3">
+        <div class="stat-ring">
+          <svg viewBox="0 0 120 120">
+            <circle class="stat-ring-bg" cx="60" cy="60" r="54"/>
+            <circle class="stat-ring-fill" cx="60" cy="60" r="54" data-percent="91"/>
+          </svg>
+          <div class="stat-ring-number">
+            <span data-target="91">0</span><sup>%</sup>
+          </div>
+        </div>
+        <div class="stat-title">Eco Packaging</div>
+        <div class="stat-desc">Our packaging is 91% recycled or sustainably sourced materials.</div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =============================================
+     COMPARISON TABLE
+     ============================================= -->
+<section class="comparison-section" id="comparison">
+  <div class="container">
+
+    <div class="comparison-header reveal">
+      <div class="section-label">How We Compare</div>
+      <h2 class="section-title">GTG vs The Rest</h2>
+      <div class="gold-line"></div>
+      <p style="color: var(--text-muted); max-width: 480px; margin: 0 auto; font-size:14px;">
+        See how GTG Perfumes stacks up against department store brands and budget alternatives.
+      </p>
+    </div>
+
+    <div class="comparison-table-wrap reveal">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th class="highlight-col">GTG Perfumes ✦</th>
+            <th>Department Store</th>
+            <th>Budget Brand</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="feature-name">100% Natural Oud</td>
+            <td class="highlight-col"><span class="check-icon">✓</span></td>
+            <td><span class="partial-icon">Partial</span></td>
+            <td><span class="cross-icon">✗</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name">Subscription Options</td>
+            <td class="highlight-col"><span class="check-icon">✓</span></td>
+            <td><span class="cross-icon">✗</span></td>
+            <td><span class="cross-icon">✗</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name">Free Worldwide Shipping</td>
+            <td class="highlight-col"><span class="check-icon">✓</span></td>
+            <td><span class="partial-icon">Over $150</span></td>
+            <td><span class="partial-icon">Domestic only</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name">Handcrafted in Small Batches</td>
+            <td class="highlight-col"><span class="check-icon">✓</span></td>
+            <td><span class="cross-icon">✗</span></td>
+            <td><span class="cross-icon">✗</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name">Cruelty Free &amp; Vegan</td>
+            <td class="highlight-col"><span class="check-icon">✓</span></td>
+            <td><span class="partial-icon">Some lines</span></td>
+            <td><span class="partial-icon">Varies</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name">30-Day Money-Back Guarantee</td>
+            <td class="highlight-col"><span class="check-icon">✓</span></td>
+            <td><span class="cross-icon">✗</span></td>
+            <td><span class="cross-icon">✗</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name">Traceable Ingredient Sourcing</td>
+            <td class="highlight-col"><span class="check-icon">✓</span></td>
+            <td><span class="cross-icon">✗</span></td>
+            <td><span class="cross-icon">✗</span></td>
+          </tr>
+          <tr>
+            <td class="feature-name">Longevity (Hours on skin)</td>
+            <td class="highlight-col">10–14 hrs</td>
+            <td>6–8 hrs</td>
+            <td>2–4 hrs</td>
+          </tr>
+          <tr>
+            <td class="feature-name">Price per ml</td>
+            <td class="highlight-col">$1.29 / ml</td>
+            <td>$2.50+ / ml</td>
+            <td>$0.30 / ml</td>
+          </tr>
+          <tr>
+            <td class="feature-name">Recycled Packaging</td>
+            <td class="highlight-col"><span class="check-icon">✓</span></td>
+            <td><span class="partial-icon">Some</span></td>
+            <td><span class="cross-icon">✗</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =============================================
+     FEATURES SECTION
+     ============================================= -->
+<section class="features-section" id="features">
+  <div class="container">
+
+    <div style="text-align:center; margin-bottom: 56px;" class="reveal">
+      <div class="section-label">Why Choose GTG</div>
+      <h2 class="section-title">The GTG Difference</h2>
+      <div class="gold-line" style="margin: 20px auto;"></div>
+    </div>
+
+    <div class="features-grid">
+
+      <div class="feature-card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Ethically Sourced</h3>
+        <p class="feature-desc">
+          Every ingredient is traceable to its origin. We partner directly with farmers and artisans in 22 countries,
+          ensuring fair wages and sustainable harvesting practices.
+        </p>
+      </div>
+
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Master Perfumers</h3>
+        <p class="feature-desc">
+          Our team of 3rd-generation perfumers trained in Grasse, France bring decades of expertise.
+          Each fragrance undergoes 18 months of development and refinement.
+        </p>
+      </div>
+
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l7.78-7.78a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Lasting Impression</h3>
+        <p class="feature-desc">
+          Our concentration of pure fragrance oil (25–35%) ensures your scent lasts 10–14 hours on skin —
+          far beyond industry-standard Eau de Parfum.
+        </p>
+      </div>
+
+      <div class="feature-card reveal">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Free Global Shipping</h3>
+        <p class="feature-desc">
+          Every order ships free anywhere in the world, wrapped in our signature luxury packaging —
+          the unboxing experience is part of the journey.
+        </p>
+      </div>
+
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">Small Batch Craft</h3>
+        <p class="feature-desc">
+          We produce in batches of 500 bottles maximum. This guarantees freshness, consistency,
+          and the kind of quality control that mass production simply cannot achieve.
+        </p>
+      </div>
+
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14M22 4L12 14.01l-3-3"/>
+          </svg>
+        </div>
+        <h3 class="feature-title">30-Day Guarantee</h3>
+        <p class="feature-desc">
+          If you're not completely in love with your fragrance within 30 days, we'll refund you — no questions,
+          no returns required. That's how confident we are.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =============================================
+     FOOTER
+     ============================================= -->
+<footer class="site-footer" id="footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div>
+        <div class="footer-brand-name">GTG <span>Perfumes</span></div>
+        <p class="footer-brand-desc">
+          Luxury fragrance, ethically crafted. Each bottle carries a story of the world's most extraordinary botanicals and resins.
+        </p>
+        <div class="footer-social">
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter / X">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.65 7.86 6.39 9.29-.09-.78-.17-1.98.03-2.83.19-.77 1.27-5.38 1.27-5.38s-.32-.65-.32-1.61c0-1.51.88-2.64 1.96-2.64.93 0 1.38.7 1.38 1.54 0 .94-.6 2.34-.91 3.64-.26 1.08.54 1.97 1.6 1.97 1.92 0 3.4-2.02 3.4-4.95 0-2.59-1.86-4.4-4.52-4.4-3.08 0-4.89 2.31-4.89 4.69 0 .93.36 1.92.81 2.46.09.11.1.2.07.31-.08.34-.26 1.08-.3 1.23-.05.2-.16.24-.37.14-1.39-.65-2.26-2.68-2.26-4.32 0-3.51 2.55-6.74 7.36-6.74 3.86 0 6.86 2.75 6.86 6.42 0 3.83-2.41 6.91-5.76 6.91-1.12 0-2.18-.58-2.54-1.27l-.69 2.58c-.25.96-.92 2.16-1.38 2.89.82.25 1.69.39 2.59.39 5.52 0 10-4.48 10-10S17.52 2 12 2z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="footer-col-title">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#product">Shop Collection</a></li>
+          <li><a href="#stats">Our Story</a></li>
+          <li><a href="#comparison">Compare</a></li>
+          <li><a href="#features">Why GTG</a></li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div>
+        <h4 class="footer-col-title">Support</h4>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Subscription Help</a></li>
+          <li><a href="#">Track Your Order</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="footer-col-title">Contact</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:hello@gtgperfumes.com">hello@gtgperfumes.com</a></li>
+          <li><a href="tel:+18005550199">+1 (800) 555-0199</a></li>
+          <li><a href="#">Mon–Fri, 9AM–6PM EST</a></li>
+        </ul>
+        <div style="margin-top: 20px;">
+          <div style="font-size:11px; font-weight:600; letter-spacing:0.12em; text-transform:uppercase; color:rgba(255,255,255,0.5); margin-bottom: 10px;">Newsletter</div>
+          <div style="display:flex; gap: 0;">
+            <input type="email" placeholder="Your email" style="flex:1; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: white; padding: 10px 14px; font-size: 12px; font-family: var(--font-sans); outline: none;"/>
+            <button style="background: var(--gold); color: white; padding: 10px 16px; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; border: none; cursor: pointer; transition: background 0.3s;" onmouseover="this.style.background='#9B7A2F'" onmouseout="this.style.background='var(--gold)'">Join</button>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /footer-grid -->
+
+    <div class="footer-bottom">
+      <span>© 2025 GTG Perfumes. All rights reserved.</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
